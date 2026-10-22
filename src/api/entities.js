@@ -1,0 +1,12 @@
+import { vibex } from './vibexClient';
+export const User = vibex.entities.User;
+export const Member = vibex.entities.Member;
+export const Group = vibex.entities.Group;
+export const Ministry = vibex.entities.Ministry;
+export const Event = vibex.entities.Event;
+export const PrayerRequest = vibex.entities.PrayerRequest;
+export const Donation = vibex.entities.Donation;
+export const Campaign = vibex.entities.Campaign;
+export const Communication = vibex.entities.Communication;
+export const Payment = vibex.entities.Payment;
+export const Auth = vibex.auth;
